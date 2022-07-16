@@ -9,13 +9,13 @@ module.exports = {
   ],
   overrides: [
     {
-      files: ['*.vue', '**/*.vue'],
+      files: [ '*.vue', '**/*.vue' ],
       customSyntax: 'postcss-html',
       rules: {
         'selector-pseudo-element-no-unknown': [
           true,
           {
-            ignorePseudoElements: ['v-deep']
+            ignorePseudoElements: [ 'v-deep' ]
           }
         ]
 
