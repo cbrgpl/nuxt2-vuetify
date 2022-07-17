@@ -4,5 +4,6 @@
     "scss.validate": false,
     "marquee.widgets.npm-stats.packageNames": [
         "ex-nuxt-todo-app"
-    ]
+    ],
+    "nuxt.isNuxtApp": true
 }

@@ -2,8 +2,7 @@ const bemMatching = /^[a-z]([a-z0-9-]+)?(__([a-z0-9]+-?)+)?(--([a-z0-9]+-?)+){0,
 
 module.exports = {
   extends: [
-    'stylelint-config-standard',
-    'stylelint-config-sass-guidelines',
+    'stylelint-config-standard-scss',
     'stylelint-config-hudochenkov/dollar-variables',
     'stylelint-config-hudochenkov/order'
   ],
